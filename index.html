@@ -1,0 +1,208 @@
+﻿    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Kuntal Shah Porfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kuntal Shah Porfolio">
+    <meta name="keywords" content="responsive, bootstrap, flat design, flat ui, portfolio">
+    <meta name="author" content="Kuntal Shah">
+    <meta name="description" content="Kuntal Shah Porfolio">
+    <!-- styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/style-single-page.css" rel="stylesheet">
+    <link href="font/css/fontello.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
+    <script>
+                $(document).ready(function() {
+            $(".fancybox-thumb").fancybox({
+                helpers	: {
+                    title	: {
+                        type: 'inside'
+                    },
+                    overlay : {
+                                css : {
+                                    'background' : 'rgba(1,1,1,0.65)'
+                                }
+                            }
+                }
+            });
+        });
+            </script>
+    </head>
+    <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> 
+	<!-- <span class="icon-bar"></span> <span class="icon-bar"></span> </a> -->
+	<a class="brand" href="#profile"><img src="img/user.png"/></a>
+          <ul class="nav nav-collapse pull-right">
+            <!--<li><a href="#profile"><i class="icon-user"></i> About Me</a></li>-->
+	    <li><a href="#work"><i class="icon-picture"></i> Work</a></li>
+            <li><a href="#project"><i class="icon-trophy"></i> Project</a></li>
+	    <li><a href="#skills"><i class="icon-trophy"></i> Skills</a></li>
+            <li><a href="#resume"><i class="icon-doc-text"></i> Resume</a></li>
+          </ul>
+          <!-- Everything you want hidden at 940px or less, place within here -->
+          <div class="nav-collapse collapse">
+            <!-- .nav, .navbar-search, .navbar-form, etc -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix">
+      <!--Profile container-->
+      <div id="profile" class="container">
+	<div class="span3"> <img src="img/mini.png"> </div>
+        <div class="span5">
+          <h1>Kuntal Shah</h1>
+          <h3>Software Developer</h3>
+          <p> Building Symantec Netbackup plugin for VMware Web Client and working on world's largest Backup and Recovery Product, 
+	  Interested in Virtualization and learning Machine-learning and Data mining.</p>
+	<a href="#resume" class="hire-me"><i class="icon-paper-plane"></i> Contact Me </a>
+	<div class="row social">
+            <ul class="social-icons">
+              <li><a href="http://www.linkedin.com/in/kuntalshah7/"><img src="img/linkedin.jpg" alt="Linkedin"></a></li>
+	      <li><a href="http://github.com/Kuntal0711"><img src="img/git.jpg" alt="Github"></a></li>
+	      <li><a href="http://plus.google.com/u/0/117834145657829497483/"><img src="img/go.png" alt="google plus"></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Social Icons -->
+        <!-- END: Social Icons -->
+      </div>
+      <!--END: Profile container-->
+      <!-- Works container -->
+      <div id="work" class="container">
+        <h2>My Work</h2>
+	<div>
+	<!--<h3>Symantec Corporation, Software Engineer Intern</h3> -->
+	<div style="float:left"><img src="img/sym.jpg"/> , </div><div><h3>Mountain View,Ca - Software Developer Intern</div></h3>
+	<br/>
+	<ul>
+	<li>Working on Symantec NetBackup,world's largest Backup and Recovery Product.</li>
+	<li>Redesigning and Building NetBackup Plugin for VMware web client using Adobe Flex, Java, Virgo Server,Spring Framework,VMware Tools and vSphere web client 5.5 SDK.</li>
+	<li>Writing Java-Service for getting large amount of data from Netbackup and showing on VMware web client using RESTful APIs.</li>
+	</ul>
+	<br/>
+	<div style="float:left"><img src="img/SJSU1.jpg"/>  </div><div><h3>, Instructional Student Assistant</h3></div>
+	<ul>
+	<br/>
+	<br/>
+	<li>Tutored students to learn the Basic Concepts of Programming, Web Technology, System Design and Database</li>
+	</ul>
+	<br/>
+	<h3>Mantissa Infotech pvt Ltd, Software Developer Intern</h3>
+	<br/>
+	<ul>
+	<li>Developed “Bidding Portal” – an application to allow members to make a bid and win the product.</li>
+	<li>Designed GUI of forms and programmed back-end of modules like registration, bidding, manage data and payment using .NET Framework 4.0, C#.NET, MVC Architecture and Microsoft SQL Server </li>
+	</ul>
+	</div>
+        <!--Dummy images by The Fox And King :: http://dribbble.com/snootyfox-->
+      </div>
+      <!--END: Work container-->
+      <!--Skills container-->
+      <div id="project" class="container">
+       <h2>My Projects</h2>
+	<br/>
+	<center><h3>Big Data Mining as a Service</h3></center>
+	<ul>
+-	<li> Working in a team of three to develop a web application (Web UI of Weka) which allows the users to mining large amount of datasets using Apache Hadoop, HBase and Apache Mahout without installing them.</li>
+	</ul>
+	<br/>
+	<center><h3>Sense Me</h3></center>
+	<ul>
+	<li>Collaborated in a team of three and build a Recommendation system which will recommend songs to the user on the basis of songs listened and liked by the user and their friends and also on their current mood.</li>
+	<li>Used Spring Social Facebook API, Spotify API, Apache Mahout Java API and Java Server Faces.</li>
+	</ul>
+	<br/>
+	<center><h3>Large Scale Statistics gathering and analysis tool in scalable Virtualized Environment</h3></center>
+	<ul>
+	<li>Worked in a team of four and developed a Splunk like tool which will perform analytics by gathering and analyzing the machine generate big data using MongoDB for storing data and GoogleCharts for Visualization.</li>
+	</ul>
+       	<br/>
+      	<center><h3>Video Library Management System in J2EE- Web Services</h3></center>
+	<ul>
+	<li> Developed a “Netflix” like system having a 3-tier architecture allowing users to search for  movies, issue and return movie and managing shopping cart using JSP/Servlets, SOAP WebServices  and MySQL.</li>
+	<li> Programmed  back-end  of Customer-Side modules and also designed UI using HTML5,CSS3 and JavaScript. </li>
+	<li>Performed JUnit and JMeter testing and also performed Connection-Pooling and DataCaching for scalability </li>
+	</ul>
+	<br/>
+	<center><h3>Collaborative MOOC </h3></center>
+	<ul>
+	<li>Collaborated in a team of five and build the Massive Open Online Course like Coursera and Udacity implemented through the integration of different MOOCs among the whole class.</li>
+	<li>Implemented  REST API with Bottle Framework , Django framework for the User Interface and MongoDB database for supporting the large amount of data storage.</li>
+	</ul>
+       </div>
+      <!--Skills container-->
+	<div id="skills" class="container">
+        <h2>Technical Skills</h2>
+	<ul>
+	<li> <b>Technologies:</b> J2EE( JSP-Servlet), SOAP/RESTFUL WebServices,.NET </li> <br/>
+	<li> <b>Languages :</b> Java , Adobe Flex , HTML5, JavaScript, CSS3</li> <br/>
+	<li> <b>Databases:</b> MySQL, Microsoft SQL Server, MongoDB, PostGreSQL, PostGIS </li> <br/>
+	<li> <b>IDEs,Servers and Tools:</b> VMware Tools, Microsoft Visual Studio, Eclipse, Virgo Server, Flex Builder, VMware Spring Tool Suit, Apache Tomcat, JBOSS, Weka</li> <br/>
+	<li> <b>Beginner  Level : </b> Apache Hadoop, Apache Mahout, Amazon EC2,Google App Engine,Python, Django Framework</li> 
+
+	</ul>
+	</div>
+      <!--END: Skills container-->
+      <!-- Resume container -->
+      <div id="resume" class="container">
+        <h2>My Resume</h2>
+        <h3>You can download my resume for your reference and I hope that we will meet very soon! :)</h3>
+        <div class="btn-center"> <a href="img/Kuntal_Resume.doc" class="hire-me"><i class="icon-download"></i> Download Resume</a>
+          <h2>125kb</h2>
+        </div>
+      </div>
+      <!--END: Resume container-->
+      <!-- Social Icons -->
+      <div class="row social">
+        <ul class="social-icons">
+          <li><a href="http://www.linkedin.com/in/kuntalshah7/"><img src="img/linkedin.jpg" alt="Linkedin"></a></li>
+	      <li><a href="http://github.com/Kuntal0711"><img src="img/git.jpg" alt="Github"></a></li>
+	      <li><a href="http://plus.google.com/u/0/117834145657829497483/"><img src="img/go.png" alt="google plus"></a></li>
+        </ul>
+      </div>
+      <!-- END: Social Icons -->
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <p class="pull-left"><a href="kuntalshah07@gmail.com">Kuntal Shah Portfolio</a></p>
+        <p class="pull-right"><a href="##myModal" role="button" data-toggle="modal"> <i class="icon-mail"></i> CONTACT</a></p>
+      </div>
+    </div>
+    <!-- Contact form in Modal -->
+    <!-- Modal -->
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel"><i class="icon-mail"></i> Contact Me</h3>
+      </div>
+      <div class="modal-body">
+        <form method="post" action="mailto:kuntalshah07@gmail.com" ENCTYPE="text/plain">
+          <input type="text" placeholder="Your Name">
+          <input type="text" placeholder="Your Email">
+          <input type="text" placeholder="Website (Optional)">
+          <textarea rows="3" style="width:80%"></textarea>
+          <br/>
+          <button type="submit" class="btn btn-large"><i class="icon-paper-plane"></i> SUBMIT</button>
+        </form>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="js/vertical-scroll.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+                $('#myModal').modal('hidden')
+    </script>
+    </body>
+    </html>
